@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		AAA0540A29EF20DA00F8E05A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0540929EF20DA00F8E05A /* AppDelegate.swift */; };
 		AAA0540C29EF20DA00F8E05A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0540B29EF20DA00F8E05A /* SceneDelegate.swift */; };
-		AAA0540E29EF20DA00F8E05A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0540D29EF20DA00F8E05A /* ViewController.swift */; };
+		AAA0540E29EF20DA00F8E05A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0540D29EF20DA00F8E05A /* HomeViewController.swift */; };
 		AAA0541129EF20DA00F8E05A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA0540F29EF20DA00F8E05A /* Main.storyboard */; };
 		AAA0541329EF20DC00F8E05A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA0541229EF20DC00F8E05A /* Assets.xcassets */; };
 		AAA0541629EF20DC00F8E05A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA0541429EF20DC00F8E05A /* LaunchScreen.storyboard */; };
+		AAA0541F29EF272100F8E05A /* Float+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0541E29EF272100F8E05A /* Float+extension.swift */; };
+		AAA0542129EF609800F8E05A /* HomeViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0542029EF609800F8E05A /* HomeViewBuilder.swift */; };
+		AAA0542329EF64DA00F8E05A /* AppColorDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0542229EF64DA00F8E05A /* AppColorDao.swift */; };
+		AAA0542B29EF6BF300F8E05A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0542A29EF6BF300F8E05A /* HomeView.swift */; };
+		AAA0542D29EF6C1F00F8E05A /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0542C29EF6C1F00F8E05A /* HomeUseCase.swift */; };
+		AAA0542F29EF6C3500F8E05A /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0542E29EF6C3500F8E05A /* HomeInteractor.swift */; };
+		AAA0543129EF6C5B00F8E05A /* HomeViewWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0543029EF6C5B00F8E05A /* HomeViewWireFrame.swift */; };
+		AAA0543329EF6C7400F8E05A /* HomeViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0543229EF6C7400F8E05A /* HomeViewRouter.swift */; };
+		AAA0543529EF6C8D00F8E05A /* HomeViewPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0543429EF6C8D00F8E05A /* HomeViewPresentation.swift */; };
+		AAA0543729EF6CA400F8E05A /* HomeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA0543629EF6CA400F8E05A /* HomeViewPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AAA0540629EF20DA00F8E05A /* rgb_slider_VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rgb_slider_VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA0540929EF20DA00F8E05A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA0540B29EF20DA00F8E05A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AAA0540D29EF20DA00F8E05A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAA0540D29EF20DA00F8E05A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AAA0541029EF20DA00F8E05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAA0541229EF20DC00F8E05A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAA0541529EF20DC00F8E05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAA0541729EF20DC00F8E05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA0541E29EF272100F8E05A /* Float+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+extension.swift"; sourceTree = "<group>"; };
+		AAA0542029EF609800F8E05A /* HomeViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewBuilder.swift; sourceTree = "<group>"; };
+		AAA0542229EF64DA00F8E05A /* AppColorDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorDao.swift; sourceTree = "<group>"; };
+		AAA0542A29EF6BF300F8E05A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AAA0542C29EF6C1F00F8E05A /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
+		AAA0542E29EF6C3500F8E05A /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		AAA0543029EF6C5B00F8E05A /* HomeViewWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewWireFrame.swift; sourceTree = "<group>"; };
+		AAA0543229EF6C7400F8E05A /* HomeViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRouter.swift; sourceTree = "<group>"; };
+		AAA0543429EF6C8D00F8E05A /* HomeViewPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresentation.swift; sourceTree = "<group>"; };
+		AAA0543629EF6CA400F8E05A /* HomeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,97 @@
 		AAA0540829EF20DA00F8E05A /* rgb_slider_VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				AAA0542429EF6BAD00F8E05A /* module */,
+				AAA0541D29EF270E00F8E05A /* extensions */,
 				AAA0540929EF20DA00F8E05A /* AppDelegate.swift */,
 				AAA0540B29EF20DA00F8E05A /* SceneDelegate.swift */,
-				AAA0540D29EF20DA00F8E05A /* ViewController.swift */,
 				AAA0540F29EF20DA00F8E05A /* Main.storyboard */,
 				AAA0541229EF20DC00F8E05A /* Assets.xcassets */,
 				AAA0541429EF20DC00F8E05A /* LaunchScreen.storyboard */,
 				AAA0541729EF20DC00F8E05A /* Info.plist */,
+				AAA0542229EF64DA00F8E05A /* AppColorDao.swift */,
 			);
 			path = rgb_slider_VIPER;
+			sourceTree = "<group>";
+		};
+		AAA0541D29EF270E00F8E05A /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0541E29EF272100F8E05A /* Float+extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		AAA0542429EF6BAD00F8E05A /* module */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0543929EF6D3C00F8E05A /* Home */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		AAA0542529EF6BBA00F8E05A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0540D29EF20DA00F8E05A /* HomeViewController.swift */,
+				AAA0542A29EF6BF300F8E05A /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAA0542629EF6BC500F8E05A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0542C29EF6C1F00F8E05A /* HomeUseCase.swift */,
+				AAA0542E29EF6C3500F8E05A /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AAA0542729EF6BCA00F8E05A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0543429EF6C8D00F8E05A /* HomeViewPresentation.swift */,
+				AAA0543629EF6CA400F8E05A /* HomeViewPresenter.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AAA0542829EF6BCF00F8E05A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AAA0542929EF6BD500F8E05A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0543029EF6C5B00F8E05A /* HomeViewWireFrame.swift */,
+				AAA0543229EF6C7400F8E05A /* HomeViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AAA0543829EF6CE300F8E05A /* builder */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0542029EF609800F8E05A /* HomeViewBuilder.swift */,
+			);
+			path = builder;
+			sourceTree = "<group>";
+		};
+		AAA0543929EF6D3C00F8E05A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0543829EF6CE300F8E05A /* builder */,
+				AAA0542529EF6BBA00F8E05A /* View */,
+				AAA0542629EF6BC500F8E05A /* Interactor */,
+				AAA0542729EF6BCA00F8E05A /* Presentation */,
+				AAA0542829EF6BCF00F8E05A /* Entity */,
+				AAA0542929EF6BD500F8E05A /* Router */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +240,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA0540E29EF20DA00F8E05A /* ViewController.swift in Sources */,
+				AAA0543329EF6C7400F8E05A /* HomeViewRouter.swift in Sources */,
+				AAA0543529EF6C8D00F8E05A /* HomeViewPresentation.swift in Sources */,
+				AAA0543129EF6C5B00F8E05A /* HomeViewWireFrame.swift in Sources */,
+				AAA0540E29EF20DA00F8E05A /* HomeViewController.swift in Sources */,
+				AAA0542B29EF6BF300F8E05A /* HomeView.swift in Sources */,
 				AAA0540A29EF20DA00F8E05A /* AppDelegate.swift in Sources */,
+				AAA0542129EF609800F8E05A /* HomeViewBuilder.swift in Sources */,
+				AAA0541F29EF272100F8E05A /* Float+extension.swift in Sources */,
+				AAA0542329EF64DA00F8E05A /* AppColorDao.swift in Sources */,
+				AAA0542F29EF6C3500F8E05A /* HomeInteractor.swift in Sources */,
+				AAA0543729EF6CA400F8E05A /* HomeViewPresenter.swift in Sources */,
+				AAA0542D29EF6C1F00F8E05A /* HomeUseCase.swift in Sources */,
 				AAA0540C29EF20DA00F8E05A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
